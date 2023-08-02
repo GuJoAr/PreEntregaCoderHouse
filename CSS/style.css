@@ -11,23 +11,9 @@
 
 /* header */
 
-header {
-    background-color: rgb(223, 243, 234);
-}
-
 li {
     list-style-type: none;
-}
-
-nav {
-    display: flex;
-    justify-content: end ;
-    padding: 30px 20px 10px;
-}
-
-.nav-list {
-    display: flex;
-    gap: 40px;
+    margin: 10px;
 }
 
 .nav-link {

@@ -11,6 +11,10 @@
 
 /* header */
 
+.navbar {
+    margin-top: 10px;
+}
+
 li {
     list-style-type: none;
     margin: 10px;
@@ -372,21 +376,15 @@ footer i {
 }
   
 @media only screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-    .nav-list{
-        flex-direction: column;
-        align-items: center;
-    }
 
     main{
         display: flex;
         flex-direction: column;
         gap:50px;
+    }
+
+    h1 {
+        font-size: 24px;
     }
     
     .info {
@@ -411,14 +409,31 @@ footer i {
       max-height: 200px;
     }
 
-    .search_box form {
+    .search_holder, .search_box button {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .search_button, .search_box, .search_box form {
         display: flex;
         flex-direction: column;
-        width: 100%;
         gap: 20px;
     }
 
     .search_holder, .search_box button {
         width: 100%;
     }
+    
+    /* mediaqueri para los rows del comprar */
+    .row {
+        margin: 10px;
+    }
+
+    .col-auto {
+        width: 100%;
+        text-align: center;
+    }
+    /* fin de mediaqueri para los rows del comprar */
+
 }

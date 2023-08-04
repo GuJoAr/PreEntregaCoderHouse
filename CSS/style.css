@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: rgb(223, 243, 234);
     font-family: 'Open Sans', sans-serif;
 }
@@ -183,6 +184,44 @@ h1{
     width: 50%;
     border-radius: 10px;
     padding: 20px;
+}
+
+.destacadoCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.destacadoCarousel_conteiner {
+    margin: 20px;
+    width: 1170px;
+}
+
+.destacadoCarousel_conteiner h3 {
+    margin: 10px 10px 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carousel img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #fff;
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: 30px;
+}
+
+.carousel-control-prev-icon::before, .carousel-control-next-icon::before {
+  color: #fff;
 }
 
 /* css del comprar */

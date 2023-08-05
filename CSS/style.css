@@ -269,60 +269,32 @@ form {
 /* css de vender */
 
 .sell {
-    padding: 40px;
     box-sizing: border-box;
     margin-left: 50px;
     background: url(../assets/image/images11.jpg);
     background-size: cover;
-    height: 900px;
+    height: 100%;
 }
 
 .sell_box {
-    width: 400px;
+    width: 500px;
     padding: 30px;
-    margin-top: 50px;
-    border-radius: 4px;
+    margin: 10px;
     background: transparent;
 }
 
-.forms {
-    background: transparent;
-    border-style: double;
-    border-width: 10px;
-    border-color: aliceblue;
-}
-.sell_div{
-    padding: 10px;
-    background: rgba(154, 158, 154, 0.87);
-}
-
-.sell_holder {
-    display: block;
+.first_col {
     width: 100%;
-    padding: 5px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(77, 73, 73);
-    font-size: 15px;
-    
+    border-radius: 20px;
 }
 
-.sell_div label {
-    background: transparent;
-}
-
-.sell_box .buttons {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: none;
-    padding: 12px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: rgba(154, 158, 154, 0.87);
-    font-size: 16px;
-    border-radius: 15px;
+.form-control {
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* css de alquilar */
@@ -474,5 +446,16 @@ footer i {
         text-align: center;
     }
     /* fin de mediaqueri para los rows del comprar */
+
+    /* mediaqueri para el vender*/
+    @media only screen and (max-width: 550px) {
+        .sell , .sell_box, .first_col, .mb-3, .m-3 {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    /* fin del vender*/
 
 }

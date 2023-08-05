@@ -48,36 +48,43 @@
 <!--main-->
     <main>
         <h1>Inmobiliaria La Croste</h1>
-        <section class="sell">
-            <div class="sell_box">
-                <form action="" method="post" class="forms">
-                    <div class="sell_div">
-                        <label for="nombre">Ingrese nombre y apellido</label>
-                        <input type="text" class="sell_holder" placeholder="Nombre y Apellido" name="nombre">
-                    </div>
-                    <div class="sell_div">
-                        <label for="email">Ingrese su email</label>
-                        <input type="email" class="sell_holder" placeholder="Email" name="email">
-                    </div>
-                    <div class="sell_div">
-                        <label for="cell">Ingrese su numero de telefono</label>
-                        <input type="tel" class="sell_holder" placeholder="Telefono" name="cel">
-                    </div>
-                    <div class="sell_div">
-                        <label for="localidad">Ingrese su localidad</label>
-                        <input type="text" class="sell_holder" placeholder="Localidad" name="localidad">
-                    </div>
-                    <div class="sell_div">
-                        <label for="casa">Ingrese que tipo de propiedad</label>
-                        <input type="text" class="sell_holder" placeholder="Tipo de Propiedad" name="casa">
-                    </div>
-                    <div class="sell_div">
-                        <label for="coment">Comentario: </label>
-                        <textarea name="coment" id="" cols="30" rows="10" placeholder="Deje su comentario"></textarea>
-                    </div>
-                    <button type="submit" class="buttons">Enviar</button>
-                </form>
-                
+        <section class="conteiner sell">
+            <div class="row sell_box">
+                <div class="col-md-6 first_col">
+                    <form class="forms m-3">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido:</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cel" class="form-label">Numero de celular:</label>
+                            <input type="cel" class="form-control" id="cel" placeholder="Ingrese su numero">
+                        </div>
+                        <div class="mb-3">
+                            <label for="localidad" class="form-label">Localidad:</label>
+                            <input type="text" class="form-control" id="localidad" placeholder="Ingrese su localidad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="propiedad" class="form-label">Tipo de propiedad:</label>
+                            <input type="text" class="form-control" id="propiedad" placeholder="Ingrese su tipo de propiedad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Deje su comentario:</label>
+                            <textarea class="form-control" name="mensaje" id="mensaje" cols="5" rows="5"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>

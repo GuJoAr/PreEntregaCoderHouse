@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(223, 243, 234);
+    /* background-color: rgb(223, 243, 234); */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -30,10 +30,10 @@ li {
 
 /* css del index */
 
-main {
+/* main {
     margin-top: 50px;
     overflow: hidden;
-}
+} */
 
 h1{
     color: #2b29b9;
@@ -191,7 +191,6 @@ h1{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 
 .destacadoCarousel_conteiner {
@@ -270,10 +269,12 @@ form {
 
 .sell {
     box-sizing: border-box;
-    margin-left: 50px;
+    margin: 50px;
     background: url(../assets/image/images11.jpg);
     background-size: cover;
     height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .sell_box {
@@ -281,11 +282,13 @@ form {
     padding: 30px;
     margin: 10px;
     background: transparent;
+    
 }
 
 .first_col {
     width: 100%;
     border-radius: 20px;
+    background-color: rgb(223, 243, 234);
 }
 
 .form-control {
@@ -320,26 +323,66 @@ form {
 
 /* css de contacto */
 
-.contact {
-    padding: 50px;
-    margin: 15px 0 0 55px;
-}
-
-.contact h3 {
-    font-size: 25px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-.contact h4 {
-    font-size: 20px;
-    padding-bottom: 30px;
-}
-
-.contact iframe {
-    padding-bottom: 30px;
+.cont {
     width: 100%;
+    box-sizing: border-box;
+    margin: 50px;
+    background: url(../assets/image/images11.jpg);
+    background-size: cover;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
+.sell_cont {
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    background: transparent;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first_cont {
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgb(223, 243, 234);
+}
+
+.form-control {
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sec_cont {
+    width: 500px;
+    border-radius: 20px;
+    background-color: #1089ff;
+    color: white;
+}
+
+.sec_cont h4 {
+    margin: 20px;
+}
+.contac_i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contac_md {
+    font-size: 18px;
+    padding-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contac_md2 {
+    margin: 50px;
+    justify-content: center;
+} 
 
 /* footer */
 
@@ -446,16 +489,42 @@ footer i {
         text-align: center;
     }
     /* fin de mediaqueri para los rows del comprar */
-
-    /* mediaqueri para el vender*/
-    @media only screen and (max-width: 550px) {
-        .sell , .sell_box, .first_col, .mb-3, .m-3 {
-            width: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-    }
-    /* fin del vender*/
-
 }
+
+/* mediaqueri para el vender*/
+@media only screen and (max-width: 710px) {
+    .sell_box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .sell , .sell_box, .first_col, .mb-3, .m-3 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* fin del vender*/
+
+/* mediaqueri para el contacto */
+
+@media only screen and (max-width: 710px) {
+    .sell_cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .cont , .sell_cont, .first_cont, .mb-3, .m-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* fin del contacto*/

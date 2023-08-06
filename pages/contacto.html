@@ -48,83 +48,130 @@
 <!--main-->
     <main>
         <h1>Inmobiliaria La Croste</h1>
-        <section class="contact">
-            <h3>Contacto</h3>
-            <div class="contact_div">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199.9694917555322!2d-56.678704947815405!3d-36.6862358831194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c6ee18e895c6d%3A0x112f335b9640c24e!2sRicchezza%20Inmobiliaria!5e0!3m2!1ses!2sar!4v1688947925864!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <h4>Visita nuestra sucursal cuando quieras</h4>
-                <ul>
-                    <li>calle falsa 123 - San Bernardo - Costa Atlántica</li>
-                    <li>(0123) 456-7890</li>
-                    <li>inmobiliariaLaCroste@falso.com</li>
-                    <li>De 10 a 13hs. y de 17 a 20hs.</li>
-                </ul>
-            </div>
-        </section>
-        <section class="conteiner sell">
-            <div class="row sell_box">
-                <div class="col-md-6 first_col">
-                    <form class="forms m-3">
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre:</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        <section class="contac_sec"><!--conteiner cont d-flex-->
+            <div class="d-flex justify-content-center"><!--row sell_cont-->
+                <div class="conteiner cont d-flex"><!--col col-md-6 first_cont-->
+                    <div class="row sell_cont">
+                        <div class="col-md-6 first_cont">
+                            <form class="forms m-3">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre:</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="apellido" class="form-label">Apellido:</label>
+                                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cel" class="form-label">Numero de celular:</label>
+                                    <input type="cel" class="form-control" id="cel" placeholder="Ingrese su numero">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="localidad" class="form-label">Localidad:</label>
+                                    <input type="text" class="form-control" id="localidad" placeholder="Ingrese su localidad">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="propiedad" class="form-label">Tipo de propiedad:</label>
+                                    <input type="text" class="form-control" id="propiedad" placeholder="Ingrese su tipo de propiedad">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Deje su comentario:</label>
+                                    <textarea class="form-control" name="mensaje" id="mensaje" cols="5" rows="5"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="mb-3">
-                            <label for="apellido" class="form-label">Apellido:</label>
-                            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                        <div class="col col-md-6 sec_cont">
+                            <h4>Sucursal</h4><hr>
+                            <div class="mt-5">
+                                <div class="d-flex contac_md">
+                                    <i class="bi bi-geo-alt-fill contac_i"></i>
+                                    <p>Direccion: calle falsa 123 - San Bernardo - Costa Atlántica</p>
+                                </div><hr>
+                                <div class="d-flex contac_md">
+                                    <i class="bi bi-telephone-fill contac_i"></i>
+                                    <p>Contacto: (0123) 456-7890</p>
+                                </div><hr>
+                                <div class="d-flex contac_md">
+                                    <i class="bi bi-envelope-fill contac_i"></i>
+                                    <p>Email: inmobiliariaLaCroste@falso.com</p>
+                                </div><hr>
+                                <div class="d-flex contac_md">
+                                    <i class="bi bi-clock-fill contac_i"></i>
+                                    <p>Horario: de 10 a 13hs. y de 17 a 20hs.</p>
+                                </div><hr>
+                                <div class="d-flex contac_md2">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199.9694917555322!2d-56.678704947815405!3d-36.6862358831194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c6ee18e895c6d%3A0x112f335b9640c24e!2sRicchezza%20Inmobiliaria!5e0!3m2!1ses!2sar!4v1688947925864!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div><hr>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="cel" class="form-label">Numero de celular:</label>
-                            <input type="cel" class="form-control" id="cel" placeholder="Ingrese su numero">
-                        </div>
-                        <div class="mb-3">
-                            <label for="localidad" class="form-label">Localidad:</label>
-                            <input type="text" class="form-control" id="localidad" placeholder="Ingrese su localidad">
-                        </div>
-                        <div class="mb-3">
-                            <label for="propiedad" class="form-label">Tipo de propiedad:</label>
-                            <input type="text" class="form-control" id="propiedad" placeholder="Ingrese su tipo de propiedad">
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Deje su comentario:</label>
-                            <textarea class="form-control" name="mensaje" id="mensaje" cols="5" rows="5"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <button class="btn btn-primary">Enviar</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- <section class="sell">
-            <div class="sell_box">
-                <form action="" method="post" class="forms">
-                    <div class="sell_div">
-                        <label for="nombre">Ingrese nombre y apellido</label>
-                        <input type="text" class="sell_holder" placeholder="Nombre y Apellido" name="nombre">
+        <!-- <section class="contac_sec">
+            <div class="conteiner contac position-relative">
+                <div class="row contac_r">
+                    <div class="col-md-7">
+                        <h4>Envíenos un mensaje</h4>
+                        <p>Completá el formulario para contactarnos sobre cualquier pregunta o comentario que tengas y nos contactaremos a la brevedad.</p>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="text" class="form-control contac_c" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                            <input type="text" class="form-control contac_c" id="exampleFormControlInput1" placeholder="Ingrese su apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control contac_c" id="exampleFormControlInput1" placeholder="Ingrese su email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Numero de celular</label>
+                            <input type="number" class="form-control contac_c" id="exampleFormControlInput1" placeholder="Ingrese su numero">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Localidad</label>
+                            <input type="text" class="form-control contac_c" id="exampleFormControlInput1" placeholder="Ingrese su localidad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Deje su comentario</label>
+                            <textarea class="form-control contac_c" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary">Enviar</button>
                     </div>
-                    <div class="sell_div">
-                        <label for="email">Ingrese su email</label>
-                        <input type="email" class="sell_holder" placeholder="Email" name="email">
+                    <div class="col-md-5">
+                        <h4>Sucursal</h4><hr>
+                        <div class="mt-5">
+                            <div class="d-flex contac_md">
+                                <i class="bi bi-geo-alt-fill contac_i"></i>
+                                <p>Direccion: calle falsa 123 - San Bernardo - Costa Atlántica</p>
+                            </div><hr>
+                            <div class="d-flex contac_md">
+                                <i class="bi bi-telephone-fill contac_i"></i>
+                                <p>Contacto: (0123) 456-7890</p>
+                            </div><hr>
+                            <div class="d-flex contac_md">
+                                <i class="bi bi-envelope-fill contac_i"></i>
+                                <p>Email: inmobiliariaLaCroste@falso.com</p>
+                            </div><hr>
+                            <div class="d-flex contac_md">
+                                <i class="bi bi-clock-fill contac_i"></i>
+                                <p>Horario: de 10 a 13hs. y de 17 a 20hs.</p>
+                            </div><hr>
+                            <div class="d-flex contac_md2">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199.9694917555322!2d-56.678704947815405!3d-36.6862358831194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c6ee18e895c6d%3A0x112f335b9640c24e!2sRicchezza%20Inmobiliaria!5e0!3m2!1ses!2sar!4v1688947925864!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div><hr>
+                        </div>
                     </div>
-                    <div class="sell_div">
-                        <label for="cell">Ingrese su numero de telefono</label>
-                        <input type="tel" class="sell_holder" placeholder="Telefono" name="cel">
-                    </div>
-                    <div class="sell_div">
-                        <label for="localidad">Ingrese su localidad</label>
-                        <input type="text" class="sell_holder" placeholder="Localidad" name="localidad">
-                    </div>
-                    <div class="sell_div">
-                        <label for="coment">Comentario: </label>
-                        <textarea name="coment" id="" cols="30" rows="10" placeholder="Deje su comentario"></textarea>
-                    </div>
-                    <button type="submit" class="buttons">Enviar</button>
-                </form>
+                </div>
             </div>
         </section> -->
     </main>

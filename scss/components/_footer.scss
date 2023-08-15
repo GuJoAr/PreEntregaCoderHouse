@@ -1,0 +1,24 @@
+footer {
+	background: linear-gradient(0deg,rgba(6,6,6,0.78) 0%, rgba(18,22,18,0.2) 80%);
+	a {
+		text-decoration: none;
+		font-size: 17px;
+		&:hover {
+			color: $color_7 !important;
+		}
+	}
+	p {
+		font-weight: 400;
+		font-size: 17px;
+		.bi {
+			color: rgb(7, 58, 199);
+		}
+	}
+	i {
+		font-size: 25px;
+		padding: 5px;
+	}
+	.bi {
+		color: #fff;
+	}
+}

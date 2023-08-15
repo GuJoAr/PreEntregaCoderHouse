@@ -1,0 +1,42 @@
+.container {
+	padding: 20px;
+}
+form {
+	margin-bottom: 50px;
+}
+.form-control {
+	width: 100%;
+	background: #fff;
+	color: $color_5;
+	font-size: 14px;
+	border-radius: 2px;
+	box-sizing: none;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.card {
+	border: 2px solid #aaa7a7;
+	border-radius: 10px;
+}
+.card-img-top {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	object-fit: cover;
+}
+.card-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.card-text {
+	font-size: 16px;
+	color: $color_4;
+}
+.row-cols-1 {
+	>.col {
+		margin-bottom: 20px;
+	}
+}
+.row-cols-md-2 {
+	>.col {
+		margin-bottom: 20px;
+	}
+}

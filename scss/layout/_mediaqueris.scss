@@ -1,0 +1,175 @@
+@media only screen and (max-width: 1520px) {
+	.info {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 'left left' 'right right';
+	}
+	.info_body {
+		p {
+			position: static;
+			width: 100%;
+			margin: 10px;
+		}
+		img {
+			position: static;
+			width: 80%;
+			height: 50%;
+			align-self: center;
+		}
+	}
+	.info_img {
+		p {
+			position: static;
+			width: 100%;
+			margin: 10px;
+		}
+		img {
+			position: static;
+			width: 80%;
+			height: 50%;
+			align-self: center;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	main {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	.info {
+		grid-template-rows: auto auto;
+		grid-template-columns: 1fr;
+		grid-template-areas: 'left' 'right';
+	}
+	.info_body {
+		p {
+			font-size: 16px;
+		}
+		h2 {
+			font-size: 30px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			max-height: 200px;
+		}
+	}
+	.info_img {
+		p {
+			font-size: 16px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			max-height: 200px;
+		}
+	}
+	.search_holder {
+		width: auto;
+	}
+	.search_box {
+		button {
+			width: auto;
+		}
+	}
+}
+@media only screen and (max-width: 710px) {
+	.sell_box {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.sell_cont {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.sell {
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.sell_box {
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.first_col {
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.mb-3 {
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.m-3 {
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.cont {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.sell_cont {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.first_cont {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.search_button {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.search_box {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		form {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+		button {
+			width: 100%;
+		}
+	}
+	.search_holder {
+		width: 100%;
+	}
+	.row {
+		margin: 10px;
+	}
+	.col-auto {
+		width: 100%;
+		text-align: center;
+	}
+}

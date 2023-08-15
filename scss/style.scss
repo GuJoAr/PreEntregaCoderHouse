@@ -1,0 +1,16 @@
+
+//base
+@import 'base/variables';
+@import 'base/reset';
+
+//components
+@import 'components/navbar';
+@import 'components/footer';
+
+//layout
+@import 'layout/index';
+@import 'layout/comprar';
+@import 'layout/vender';
+@import 'layout/alquilar';
+@import 'layout/contacto';
+@import 'layout/mediaqueris';

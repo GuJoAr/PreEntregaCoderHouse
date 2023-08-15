@@ -1,0 +1,13 @@
+.navbar {
+	background: linear-gradient(140deg,#58a3fb 0%, #6cfb6c 80%);
+}
+li {
+	list-style-type: none;
+	margin: 10px;
+}
+.nav-link {
+	font-size: 20px;
+	color: $color_1;
+	font-weight: bold;
+	text-decoration: none;
+}

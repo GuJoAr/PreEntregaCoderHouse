@@ -8,6 +8,12 @@
 	justify-content: center;
 	align-items: center;
 }
+.contac_sec {
+	padding: 20px;
+	h1 {
+	font-size: 35px;
+	}
+}
 .sell_cont {
 	width: 100%;
 	padding: 30px;
@@ -35,8 +41,9 @@
 	border-radius: 20px;
 	background-color: $background-color_4;
 	color: $color_6;
-	h4 {
+	h2 {
 		margin: 20px;
+		font-size: 25px;
 	}
 }
 .contac_i {

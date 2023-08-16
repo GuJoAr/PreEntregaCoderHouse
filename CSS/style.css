@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background: linear-gradient(140deg, #58a3fb 0%, #6cfb6c 80%);
+  background: linear-gradient(90deg, #3e51dc 20%, #68dcb9 70%);
 }
 
 li {
@@ -24,6 +24,9 @@ li {
 
 footer {
   background: linear-gradient(0deg, rgba(6, 6, 6, 0.78) 0%, rgba(18, 22, 18, 0.2) 80%);
+}
+footer .foot__sec {
+  font-size: 1.5rem;
 }
 footer a {
   text-decoration: none;
@@ -238,6 +241,9 @@ h1 {
 .container {
   padding: 20px;
 }
+.container h1 {
+  font-size: 35px;
+}
 
 form {
   margin-bottom: 50px;
@@ -259,6 +265,7 @@ form {
 }
 
 .card-img-top {
+  height: 300px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: cover;
@@ -297,6 +304,13 @@ form {
   padding: 30px;
   margin: 10px;
   background: transparent;
+}
+
+.colum {
+  width: 100%;
+  background-color: rgb(223, 243, 234);
+  border-radius: 20px;
+  font-size: 25px;
 }
 
 .first_col {
@@ -373,6 +387,13 @@ form {
   align-items: center;
 }
 
+.contac_sec {
+  padding: 20px;
+}
+.contac_sec h1 {
+  font-size: 35px;
+}
+
 .sell_cont {
   width: 100%;
   padding: 30px;
@@ -404,8 +425,9 @@ form {
   background-color: #1089ff;
   color: white;
 }
-.sec_cont h4 {
+.sec_cont h2 {
   margin: 20px;
+  font-size: 25px;
 }
 
 .contac_i {

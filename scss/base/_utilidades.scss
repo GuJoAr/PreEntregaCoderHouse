@@ -1,0 +1,18 @@
+@mixin flex ($direction, $align, $justify) {
+	display: flex;
+	flex-direction: $direction;
+	align-items: $align;
+	justify-content: $justify;
+}
+
+@mixin imagenes ($width, $height, $object) {
+    width: $width;
+    height: $height;
+    object-fit: $object;
+}
+
+.boton-search {
+    margin: 10px;
+	background: transparent;
+	width: 50%;
+}

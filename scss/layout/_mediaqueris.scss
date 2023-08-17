@@ -11,8 +11,7 @@
 		}
 		img {
 			position: static;
-			width: 80%;
-			height: 50%;
+			@include imagenes (80%,50%,cover);
 			align-self: center;
 		}
 	}
@@ -24,8 +23,7 @@
 		}
 		img {
 			position: static;
-			width: 80%;
-			height: 50%;
+			@include imagenes (80%,50%,cover);
 			align-self: center;
 		}
 	}
@@ -52,9 +50,7 @@
 			font-size: 30px;
 		}
 		img {
-			width: 100%;
-			height: auto;
-			max-height: 200px;
+			@include imagenes (100%,auto,cover);
 		}
 	}
 	.info_img {
@@ -62,9 +58,7 @@
 			font-size: 16px;
 		}
 		img {
-			width: 100%;
-			height: auto;
-			max-height: 200px;
+			@include imagenes (100%,auto,cover);
 		}
 	}
 	.search_holder {

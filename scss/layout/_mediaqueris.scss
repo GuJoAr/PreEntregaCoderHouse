@@ -86,40 +86,19 @@
 }
 @media only screen and (max-width: 550px) {
 	.sell {
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
+		@include column;
 	}
 	.sell_box {
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
+		@include column;
 	}
 	.first_col {
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
+		@include column;
 	}
 	.mb-3 {
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
+		@include column;
 	}
 	.m-3 {
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
+		@include column;
 	}
 	.cont {
 		display: flex;
@@ -167,3 +146,4 @@
 		text-align: center;
 	}
 }
+

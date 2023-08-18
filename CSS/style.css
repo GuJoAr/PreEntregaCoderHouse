@@ -26,6 +26,16 @@ li {
   color: rgb(29, 35, 41);
   font-weight: bold;
   text-decoration: none;
+  background-image: linear-gradient(125deg, rgba(43, 40, 41, 0.103), rgba(65, 65, 70, 0.11));
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 40%;
+  transition: background-size 0.3s;
+}
+.nav-link:hover {
+  background-image: linear-gradient(125deg, rgba(7, 7, 7, 0.466), rgba(26, 26, 27, 0.308));
+  background-size: 100% 100%;
+  border-radius: 20px;
 }
 
 footer {
@@ -68,7 +78,7 @@ h1 {
 .search {
   width: 100%;
   padding: 20px;
-  background: url(../assets/image/images11.jpg);
+  background: url(../assets/image/fondo_01.png);
   background-size: cover;
   height: 70vh;
   display: flex;
@@ -311,7 +321,7 @@ form {
 .sell {
   box-sizing: border-box;
   margin: 50px;
-  background: linear-gradient(rgba(235, 164, 164, 0.219), rgba(94, 40, 40, 0.247)), url(../assets/image/images11.jpg);
+  background: linear-gradient(rgba(235, 164, 164, 0.219), rgba(94, 40, 40, 0.247)), url(../assets/image/fondo_01.png);
   background-size: cover;
   height: 100%;
   justify-content: center;
@@ -402,7 +412,7 @@ form {
   width: 100%;
   box-sizing: border-box;
   margin: 50px;
-  background: url(../assets/image/images11.jpg);
+  background: url(../assets/image/fondo_01.png);
   background-size: cover;
   height: 100%;
   justify-content: center;
@@ -579,15 +589,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
   .m-3 {
     width: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;

@@ -16,3 +16,11 @@
 	background: transparent;
 	width: 50%;
 }
+
+@mixin column {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+

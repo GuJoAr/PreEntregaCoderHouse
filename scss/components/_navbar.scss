@@ -1,5 +1,9 @@
 .navbar {
 	background-image: linear-gradient(90deg,#3e51dc 20%, #68dcb9 70%);
+	img {
+		width: 100px;
+		height: 100px;
+	}
 }
 li {
 	list-style-type: none;

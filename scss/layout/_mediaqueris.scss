@@ -151,4 +151,24 @@
 		text-align: center;
 	}
 }
-
+@media only screen and (max-width: 320px){
+	.destacadoCarousel {
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+	.destacadoCarousel_conteiner {
+		width: 100%;
+		margin: 10px
+	}
+	.carousel {
+		img {
+			@include imagenes (100%,auto,cover);
+		}
+	}
+	.colum {
+		img {
+			@include imagenes (100%,auto,cover);
+		}
+	}
+}

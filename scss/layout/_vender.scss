@@ -40,6 +40,9 @@
 		padding: 10px;
 		font-weight: bold;
 	}
+	img {
+		@include imagenes (100%,100%,cover);
+	}
 }
 .first_col {
 	width: 100%;

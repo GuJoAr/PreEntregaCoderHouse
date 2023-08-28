@@ -23,6 +23,8 @@ h1 {
 		margin: 5px;
 		border-color: $border-color_1;
 		box-shadow: 5%;
+		background-image: $color_8;
+		color: black;
 	}
 }
 .search_box {
@@ -38,6 +40,8 @@ h1 {
 	button {
 		width: 20%;
 		border-color: $border-color_1;
+		background-image: $color_8;
+		color: black;
 	}
 }
 .search_holder {
